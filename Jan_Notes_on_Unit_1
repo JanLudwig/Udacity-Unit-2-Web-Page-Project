@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+    <!-- The <title> element normally sets the name of the browser tab-->
+    <title>Jan's Notes on Units | Intro to Programming - Nanodegree | Unit 1</title>
+    <link rel="stylesheet" href="Jan.udacity.style.css">
+</head>
+<body>
+ <!-- ... body of document ... -->
+ <div class="topbar">
+   <ul class="navbar">
+     <li class="navbar"><a class="navbaractive" href="Jan_Notes_on_Unit_1.html">Unit 1</a></li>
+     <li class="navbar"><a class="navbar" href="Jan_Notes_on_Unit_2.html">Unit 2</a></li>
+     <li class="navbar"><a class="navbar" href="Jan_Notes_on_Unit_3.html">Unit 3</a></li>
+   </ul>
+ </div>
+
+ <h1 class="title">Intro to Programming - Nanodegree | Unit 1</h1>
+  <div class="menu">
+    <ol>
+      <li><a href="#unit-1"><h3>Unit 1: Learn to Code - The Basics of the Web and HTML</h3></a>
+        <ul>
+          <li><a href="#unit-1-1">Lesson 1: World Wide Web</a></li>
+          <li><a href="#unit-1-2">Lesson 2: HTML - the Basics</a></li>
+          <li><a href="#unit-1-3">Lesson 3: HTML Tags and Elements</a></li>
+          <li><a href="#unit-1-4">Lesson 4: Making Links with HTML Attributes</a></li>
+          <li><a href="#unit-1-5">Lesson 5: Adding Images in HTML</a></li>
+          <li><a href="#unit-1-6">Lesson 6: Whitespace</a></li>
+          <li><a href="#unit-1-7">Lesson 7: Inline vs Block Elements</a></li>
+          <li><a href="#unit-1-8">Lesson 8: Container Elements - Span and Div</a></li>
+          <li><a href="#unit-1-9">Lesson 9: Document Structure</a></li>
+          <li><a href="#unit-1-10">Lesson 10: Importance of Indentation</a></li>
+          <li><a href="#unit-1-summary">Summary of Important Concepts</a></li>
+        </ul>
+    </ol>
+    </div>
+
+<h1 id="unit-1" class="unit-title">Unit 1: The Basics of the Web and HTML</h1>
+  <div class="lesson">
+    <h2 id=unit-1-1>Lesson 1: The World Wide Web</h2>
+      <div class="content">
+        <ul class="bullet">
+          <li>Technological empathy is to understand what happens when you open (or create) a web page</li>
+          <li>understanding how users, computers, servers, http, and the Internet all fit together</li>
+        </ul>
+      </div>
+  </div>
+
+<div class="lesson">
+  <h2 id="unit-1-2">Lesson 2: HTML</h2>
+    <div class="content">
+    <ul class="bullet">
+      <li>HTML stands for <em>HyperText Markup Language</em> and is the basis for almost every webpage; links between pages are called hyperlinks (links for short); invented in the ealry 1990s and has something in the order of 30bn pages</li>
+      <li>Your browser makes requests via the Internet to servers. These requests are using a protocol called HTTP. And the servers respond with files that the browser displays</li>
+      <li>And the protocol HTTP is just a very simple protocol that your browser uses to communicate with these servers</li>
+    </ul>
+  </div>
+</div>
+
+<div class="lesson">
+  <h2 id="unit-1-3">Lesson 3: HTML Tags and Elements:</h2>
+    <div class="content">
+      <ul class="bullet">
+        <li>text content i.e. what you see</li>
+        <li>markup i.ee what it looks like</li>
+        <li>references to other documents e.g. images and videos etc</li>
+        <li>Links to other pages</li>
+      </ul>
+      <p>Check <a href="https://www.youtube.com/watch?v=5Kjx-NOwcSc">this video below</a>for an overview</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/5Kjx-NOwcSc?fs=1"></iframe>
+    </div>
+
+
+  <div class="example">
+    <h3>See Steve's example in <a href="https://www.youtube.com/watch?v=VsxbuJWcxqA">this video:</a></h3>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/VsxbuJWcxqA?fs=1"></iframe>
+      <p>I am going to learn to love HTML (plaintext in HTML)</p>
+      <p>HTML tags: <code>&lt;NAME&gt;</code> (=opening tag)Contents (=which can be other tags) <code>&lt;/NAME&gt;</code> (closing tag) ALL of it is referred to as an 'ELEMENT'</p>
+  </div>
+
+  <div class="example">
+    <h3>Further Examples of Tags:</h3>
+      <p>1) <b>Bold</b> tag <code>&lt;b>text&lt;/b></code>:
+        <br>HTML is <b>reasonably straightforward</b>
+      <p>See <a href="https://www.youtube.com/watch?v=irJ9o1Uv6U8">this video:</a></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/irJ9o1Uv6U8?fs=1"></iframe>
+
+    <p>2) <em>em</em> tag - <em>emphasis</em> = italics:
+      <br> <em>HTML is <b>reasonably straightforward</b></em></p>
+    <p>See <a href="https://www.youtube.com/watch?v=4H23hC78J_A">this video:</a></p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4H23hC78J_A?fs=1"></iframe>
+  </div>
+</div>
+
+<div class="lesson">
+  <h2 id="unit-1-4">Lesson 4: Making Links - HTML Attributes:</h2>
+  <p class="content">
+    Make links in html using the Anchor tag
+  </p>
+  <div class="example">
+    <h3>Example:</h3>
+    Anchor tag - <code>&lt;a&gt;</code> = <code>&lt;a href="value"&gt;contents&lt;/a&gt;</code>
+    <p>1) I am going to learn to love <a href="www.w3c.org/html">HTML</a><br>
+      2) This website is <a href="https://www.udacity.com">my favorite</a></p>
+    <p>On Making Links see <a href="https://www.youtube.com/watch?v=-0S9lBFHeo0">this video:</a></p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/-0S9lBFHeo0?fs=1"></iframe>
+  </div>
+</div>
+
+
+<div class="lesson">
+  <h2 id="unit-1-5">Lesson 5: Adding Images in HTML</h2>
+  <div class="content">
+    <code>&lt;img&gt;</code> = <code>&lt;img&gt; src="url" alt="text"</code> (alternate text in case image doesn't load / broken request / blind users)>
+    <p>image tags <code>&lt;tag&gt;</code> do not have a closing tag; they are called "void tags"; has not content therefore needs no closing tag.</p>
+  </div>
+  <div class="example">
+  <h3>Example</h3>
+  <p>hello!<img src="http://www.udacity.com/cs253x/hipmunk.png" alt="hipmunk!"></p>
+    <p>On Images see <a href="https://www.youtube.com/watch?v=Le8i8TtDleU">this video:</a></p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Le8i8TtDleU?fs=1"></iframe>
+</div>
+</div>
+
+<div class="lesson">
+  <h2 id="unit-1-6">Lesson 6: Whitespace</h2>
+  <p class="content">
+    <code>&lt;br&gt;</code> = Break tag and is also a void tag; use after any line you want to appear on multiple lines
+  </p>
+    <div class="example">
+      <h3>Examples</h3>
+        plain text:<br> this text is really too long for one line
+        <br><br>same text with line break:<br>this texts really<br>too long one line for one line
+      <p>On Whitespace see <a href="https://www.youtube.com/watch?v=dEtVii1eYYY">this video:</a></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/dEtVii1eYYY?fs=1"></iframe>
+  <p>Another way to do a line break is to use the <b><code>&lt;p&gt;</code> tag = paragraph tag</b>; this is not a void tag:</p>
+  <p> <code>&lt;p&gt; content &lt;/p&gt;</code></p>
+      <code>&lt;p&gt;this text is really&lt;/p&gt; &lt;p&gt;too long for one line&lt;/p&gt;</code> will render this:
+      <p>this is really</p>
+      <p>too long for one line</p>
+  </div>
+</div>
+
+<div class="lesson">
+  <h2 id="unit-1-7">Lesson 7: Inline vs Block Elements</h2>
+    <div class="content">
+      <p> <code>&lt;br&gt;</code> = inline and <code>&lt;p&gt;</code> = block <br>
+    <code>&lt;br&gt;</code> is just ending a line: text <code>&lt;br&gt;</code> text (on new line); whilst <code>&lt;p&gt;</code> makes an invisible box that can width and height</p>
+    <p>This distinction and the different behaviour between inline and block elements needs to be borne in mind.</p>
+    </div>
+    <div class="example">
+      <h3>Example</h3>
+    <p>inline elements include <code>&lt;b&gt;</code>, <code>&lt;em&gt;</code>, <code>&lt;img&gt;</code> etc
+      <br>block elements include <code>&lt;p&gt;</code></p>
+      <p><b>\n</b> is how programmers represent a "newline" character in common coding languages such as C, Java, Python, etc</p>
+        <p>On Inline vs Block Elements see <a href="https://www.youtube.com/watch?v=bOh9WjucNsA">this video:</a></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/bOh9WjucNsA?fs=1"></iframe>
+    </div>
+</div>
+
+<div class="lesson">
+  <h2 id="unit-1-8">Lesson 8: Container Elements - Span and Div</h2>
+  <div class="content">
+    <p>Span is inline <code>&lt;span> text &lt;/span></code><br>
+      Div is block  <code>&lt;div&gt; text &lt;/div&gt;</code></p>
+      <p>you can add attributes for instance styles or a CSS class as below:
+        <code><br>&lt;span class="foo"> text &lt;/span>
+        <br>&lt;div class="bar"> text &lt;/div></code></p>
+  </div>
+  <div class="example">
+      <h3>Example: Span</h3>
+        <span>this is one line</span>.
+        yep, one line
+      <h3>Example: Div [creates a box around the text]</h3>
+        <div>this is one line</div>.
+        yep, one line
+        <br>[note how the fullstop appears on second line after the closing div tag]
+      <p>On Span and Div see <a href="https://www.youtube.com/watch?v=rv1Oy-EduCk">this video:</a></p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/rv1Oy-EduCk?fs=1"></iframe>
+  </div>
+</div>
+
+<div class="lesson">
+  <h2 id="unit-1-9">Lesson 9: Document Structure</h2>
+  <div class="example">
+    <h3>Examples</h3>
+    <code>&lt;!DOCTYPE HTML&gt;</code> [doctuype: nowadays html5]
+    <code><br>&lt;html></code> [opening html tag]
+    <code><br>&lt;head></code> [this includes meta-data: Java, CSS etc]
+      <code><br>&lt;title> Title!&lt;/title></code> [title of the page, what appears in top of browser window/tab]
+    <code><br>&lt;/head></code>
+    <code><br>&lt;body></code> [contents of the document; we've been working just on this in this lesson]
+    <code><br>&lt;b> content &lt;/b>
+    <br>&lt;/body></code>
+    <code><br>&lt;/html></code> [closing html tag; surrounding whole document]
+
+  <p><b>Another</b> simplified way of looking at HTML documents is:
+    <code><br>&lt;head>
+    <br>[title CSS JS]
+    <br>&lt;/head>
+    <br>&lt;body>
+    <br>[contents]
+    <br>&lt;/body> which is the focus of this course.</code>
+  <p>On Document Structure see <a href="https://www.youtube.com/watch?v=VL7Wm0UzY6s">this video:</a></p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/VL7Wm0UzY6s?fs=1"></iframe>
+    </div>
+</div>
+
+
+<div class="lesson">
+  <h2 id="unit-1-10">Lesson 10: Importance of Indentation</h2>
+    <p class="content">
+      Indentation serves a similar purpose in writing code as it does in English and other languages: a <b>new indent</b> is a <b>new idea</b>.
+      <br><br>One big difference between indenting programming languages and indenting English, however, is that an <em>indentation level persists throughout an idea</em>. In HTML particularly, the indentation level increases when an idea begins and decreases when an idea is finished.
+    </p>
+</div>
+
+<div class="Summary">
+  <h2 id="unit-1-summary">Summary of Important Concepts</h2>
+
+  <div class="content">
+    <h4>The World Wide Web</h4>
+      <p>The web is composed largely of HTML documents. HTML stands for HyperText Markup Language and is the language the browsers use to interpret web pages. The components of the web include the client (your computer and browser), the Internet, and servers. The client and servers interact through something called the Hypertext Transfer Protocol (HTTP).</p>
+  </div>
+  <div class="content">
+    <h4>Basic HTML Elements</h4>
+    <p>HTML elements are what we use to tell a web browser <b><em>how</em></b> to display content on a web page.</p>
+    <p>Most HTML elements consist of an <b>opening</b> and a <b>closing</b> tag with some content between them.</p>
+    <p><code>&lt;b>text&lt;/b></code> Makes the 'text' content <b>bold</b>
+    <code><br>&lt;em>text&lt;/em></code> Makes the 'text' content <em>italic</em></p>
+  </div>
+  <div class="content">
+    <h4>HTML Attributes</h4>
+    <p>Some elements accept additional values called <b>attributes</b> in their opening tags. Attributes provide additional information to the browser. For example, the anchor tag takes an attribute called href that defines a URL to link to.</p>
+    <p><code>&lt;a href="url">link&lt;/a></code> Creates a hyperlink to the href attribute value url and names it link</p>
+    <p><code>&lt;img src="url" alt="text"></code> Displays the image hosted at the src attribute value "url" (this can also be a path to a local file on your computer). If the image cannot be displayed, then the alt attribute value "text" is shown.</p>
+  </div>
+  <div class="content">
+    <h4>More HTML Elements</h4>
+      <p><code>&lt;p>text&lt;/p></code> Defines a paragraph. The content of the <code>&lt;p></code> element is in a "box"</p>
+      <p><code>&lt;br></code> Creates a line break</p>
+      <p><code>&lt;div>content&lt;/div></code> Creates a "box" container element</p>
+      <p><code>&lt;span>content&lt;/span></code> Creates an "inline" container element</p>
+  </div>
+
+  <div class="Further-resources">
+  <h3>Further useful resources for documentation:</h3>
+    Another great place is <a href="http://www.w3schools.com/">W3Schools</a>, a website with lots of documentation on web development, including a huge reference guide of <a href="http://www.w3schools.com/tags">HTML tags</a>. Another solid resource is <a href="https://developer.mozilla.org/en-US/">MDN</a> (Mozilla Developer Network), specifically their section on <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a>.
+    <h3>Other Good Websites</h3>
+      Codeacademy and Treehouse
+      <br>Learn Python the Hard Way
+  </div>
+</div>
+
+</body>
+</html>
